@@ -39,6 +39,7 @@ def classify_face(im):
 
     :param im: str of file path
     :return: list of face names
+
     """
     faces = get_encoded_faces()
     faces_encoded = list(faces.values())
